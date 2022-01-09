@@ -3,7 +3,7 @@
 import Calculator from "./proj1.PNG";
  import bubbleSortVisualizer from "./proj2.PNG";
  import portfolio from "./proj3.PNG";
- import onlineExamSystem from "./proj4.PNG";
+ import onlineExamSystem from "./proj4.jpeg";
 
   import "../../components/Projects/Projects.css"
 
@@ -11,7 +11,7 @@ import Calculator from "./proj1.PNG";
   const OnlineExamSystemDesc = () => {
       return(
               <>
-                  <span>This is a online exam website where</span>
+                  <span>This is online exam website a full stack application where</span>
                   <p className="margin-Top">
                       User can
                       <ul className="margin-Top">
@@ -34,7 +34,7 @@ import Calculator from "./proj1.PNG";
                           <li>see the all question regarding a particular exam</li>
                       </ul>
                   </p>
-                  <p> Develop using React, React-router, CSS , axios, Json SERVER</p>
+                  <p> Develop using React , Spring boot Rest API , Mysql database</p>
 
              </>
           ); 
@@ -46,7 +46,7 @@ export const projectsData = [
         projectName: 'Online Exam System Website',
         projectDescription:<OnlineExamSystemDesc/>,
         imageUrl: onlineExamSystem,
-        projectUrl: 'https://www.youtube.com/watch?v=P3gqcSkYlmU',
+        projectUrl: 'https://www.youtube.com/watch?v=vT7_coBmnLA',
     },
     {
         projectName: 'Portfolio Website',
